@@ -19,8 +19,6 @@ public final class App {
     public static String helloBoyandGirl(String name) {
         if (name == null) {
             return "Hello World";
-        } else {
-            return "Hello Aurélie";
         }
     }
 }

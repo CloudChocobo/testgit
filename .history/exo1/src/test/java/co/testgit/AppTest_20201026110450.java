@@ -11,11 +11,10 @@ class AppTest {
     /**
      * Rigorous Test.
      */
-
     @Test
-    void TestHelloBoyandGirl() {
-        assertEquals("Hello World", App.helloBoyandGirl(null),("null name"));
-        assertEquals("Hello Aurélie", App.helloBoyandGirl("Aurélie"),("name Aurélie"));
-
+    void testApp() {
+        assertEquals("Hello Aurélie", App.("Aurélie"));
     }
+
+    
 }

@@ -20,7 +20,7 @@ public final class App {
         if (name == null) {
             return "Hello World";
         } else {
-            return "Hello Aurélie";
+            return "Hello Aurélie"
         }
     }
 }

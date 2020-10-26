@@ -16,11 +16,9 @@ public final class App {
         System.out.println("Hello World!");
     }
 
-    public static String helloBoyandGirl(String name) {
-        if (name == null) {
+    public static void helloBoyandGirl(String name) {
+        if ((name == null) || (name == "")) {
             return "Hello World";
-        } else {
-            return "Hello Aurélie";
         }
     }
 }
